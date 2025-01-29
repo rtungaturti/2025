@@ -27,7 +27,7 @@ def test_login(browser):
     browser.goto("https://practicetestautomation.com/practice-test-login/")
     example_page = ExamplePagePlaywright(browser)
     example_page.login("student", "Password1234")
-    print("Hi")
+    print("Hi3")
     # Add assertions to verify login success
     assert "Logged In Successfully" in browser.content()  # Use correct Playwright command
 
